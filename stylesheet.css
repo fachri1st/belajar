@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #e7d39f;
+    background-image: url(img/overlay.png);
+}
+/*MAIN DISPLAY*/
+.maindisplay{
+    background-image: url(img/wallpaper2.jpg);
+    background-size: cover;
+    height: 700px;
+    color: slategrey;
+}
+.header-main{
+    width: 100%;
+    text-align: center;
+    padding-top: 300px;
+}
+.header-main h1{
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.button {
+    margin-top: 20px;
+    text-align: center;
+    padding: 50px;
+}
+.button a{
+    border: 2px solid slategrey;
+    border-radius: 20px;
+    padding: 20px;
+    text-decoration: none;
+    color: slategrey;
+    transition: all 2s;
+}
+.button a:hover{
+    border: 2px solid whitesmoke;
+    background-color: #21bf73;
+    color: whitesmoke;
+    transition: all 1s;
+    font-weight: bold;
+}
+/*PROFILE BEGIN*/
+.header{
+    text-align: center;
+    color: #10375c;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #10375c;
+}
+.profiles{
+    width: 100%;
+    height: 600px;
+}
+.container{
+    margin-top: 200px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.profile{
+    float: left;
+    width: 20%;
+    color: #10375c;
+    margin-bottom: 40px;
+}
+    .profile h4, h5{
+        font-weight: normal;
+        text-align: center;
+    }
+    .profile h4{
+        font-size: 15px;
+        text-transform: uppercase;
+        margin-top: 10px;
+    }
+    .profile h5{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .profile img{
+        display: block;
+        margin: 0 auto;
+        width: 100px;
+        text-align: center;
+        border-radius: 50%;
+        border: 2px solid  #10375c;
+    }
+    .profile p{
+        font-size: 10px;
+    }
+    .txt-profile{
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: justify;
+    }
+    .sosmed{
+        text-align: center;
+    }
+    .sosmed li{
+        display: inline-block;
+        padding: 0 5px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .sosmed a{
+        color: #10375c;
+
+    }
+    .sosmed h1{
+        font-size: 11px;
+        font-weight: normal;
+        margin-top: 50px;
+    }
+
+    /*PROFILE END*/
+
+/*FOOTER*/
